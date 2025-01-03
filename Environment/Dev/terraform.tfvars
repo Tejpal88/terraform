@@ -10,14 +10,14 @@ stg-details = {
     account_replication_type = "LRS"
   }
   sa2 = {
-    name                     = "amit7392kjfsakjfvats"
-    resource_group_name      = "Amit"
+    name                     = "stor27392kjfsakjfvats"
+    resource_group_name      = "stor2"
     location                 = "Brazil South"
     account_replication_type = "LRS"
   }
   sa3 = {
-    name                     = "yogesh7392kjisakjfvats"
-    resource_group_name      = "Yogesh"
+    name                     = "stor37392kjisakjfvats"
+    resource_group_name      = "stor3"
     location                 = "east us"
     account_replication_type = "LRS"
   }

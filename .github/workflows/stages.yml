@@ -20,11 +20,11 @@ jobs:
 
       - name: Terraform Init
         run: terraform init
-        working-directory: ./
+        working-directory: ./Environment/Dev
 
       - name: Terraform validate
         run: terraform validate
-        working-directory: ./
+        working-directory: ./Environment/Dev
 
   plan:
     needs: initialize
@@ -43,9 +43,9 @@ jobs:
 
       - name: Terraform Init
         run: terraform init
-        working-directory: ./
+        working-directory: ./Environment/Dev
 
       - name: Terraform Plan
         run: terraform plan
-        working-directory: ./
+        working-directory: ./Environment/Dev
 

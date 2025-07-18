@@ -19,6 +19,6 @@ provider "azurerm" {
       recover_soft_deleted_secrets          = true
     }
   }
-  subscription_id = "a27dbdef-1fae-46c8-b2ce-ad5d84e1b13e"
+  #subscription_id = "a27dbdef-1fae-46c8-b2ce-ad5d84e1b13e"
 }
 provider "random" {}
